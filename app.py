@@ -5,6 +5,7 @@ from PIL import Image
 import io
 import random
 
+st.title('Neuropsychology LLM platform POC')
 # Initialize OpenAI client
 client = OpenAI(api_key=st.secrets['API_KEY'])
 
